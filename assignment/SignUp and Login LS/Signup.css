@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#main{
+    width: 25%;
+    height: auto;
+    padding: 30px 60px 30px 50px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+ width: 100%;
+ margin-bottom:20px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 1px solid gray;
+ font-size: 15px;
+}
+::placeholder{
+    color: rgb(227, 227, 227);
+}
+label{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: px;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-sizing: content-box;
+    
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+#pass+p{
+    font-size: 14px;
+    margin: 20px 10px 30px 0px;
+    color: gray;
+    text-align: center;
+}
+form+p{
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+form+p>a{
+    margin-left: 10px;
+}
+
+
+@media all and (max-width:720px){
+    body{
+        padding: 0px 80px 20px 80px;
+    }
+    #main{
+        width: auto;
+        height: auto;
+        padding: 30px 60px 30px 50px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        margin-top: 20px;
+        
+    }
+}

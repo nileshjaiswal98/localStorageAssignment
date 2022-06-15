@@ -1,0 +1,12 @@
+
+h1{
+    text-align: center;
+}
+
+#display{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(12,auto);
+    gap: 20px;
+    text-decoration: lin;
+}
